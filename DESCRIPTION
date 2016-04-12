@@ -13,7 +13,9 @@ Imports:
   readr,
   dplyr
 Suggests:
-  DBItest, testthat
+  testthat
+Remotes:
+  rstats-db/DBItest
 License: MIT + file LICENSE
 Collate:
   'SPARQLDBI-package.R'
