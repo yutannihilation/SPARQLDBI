@@ -1,6 +1,6 @@
 SPARQL As A Backend For DBI
 ==========================
-[![Travis-CI Build Status](https://travis-ci.org/<USERNAME>/<REPO>.svg?branch=master)](https://travis-ci.org/<USERNAME>/<REPO>)
+[![Travis-CI Build Status](https://travis-ci.org/yutannihilation/SPARQLDBI.svg?branch=master)](https://travis-ci.org/yutannihilation/SPARQLDBI)
 
 This package implements R's [DBI](https://github.com/rstats-db/DBI) interface for [SPARQL](https://en.wikipedia.org/wiki/SPARQL). This will lead us to the bright future where we can use SPARQL via dplyr!
 
