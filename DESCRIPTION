@@ -1,0 +1,24 @@
+Package: SPARQLDBI
+Type: Package
+Title: SPARQL As A Backend For DBI
+Version: 0.1.0
+Authors@R: person('Hiroaki', 'Yutani', , 'yutani.ini@gmail.com', c('aut', 'cre'))
+Description: A simple implementation of R's DBI Interface. This provides access to SPARQL via DBI.
+Depends:
+  R (>= 3.1.2)
+Imports:
+  DBI (>= 0.3.0),
+  methods,
+  httr,
+  readr,
+  dplyr
+Suggests:
+  DBItest, testthat
+License: MIT + file LICENSE
+Collate:
+  'SPARQLDBI-package.R'
+  'SPARQLDriver.R'
+  'SPARQLConnection.R'
+  'SPARQLResult.R'
+LazyData: TRUE
+RoxygenNote: 5.0.1
